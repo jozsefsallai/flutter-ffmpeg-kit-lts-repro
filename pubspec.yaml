@@ -29,7 +29,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  ffmpeg_kit_flutter: ^4.5.0-LTS
+  ffmpeg_kit_flutter:
+    git:
+      url: https://github.com/tanersener/ffmpeg-kit
+      ref: development-flutter
+      path: flutter/flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

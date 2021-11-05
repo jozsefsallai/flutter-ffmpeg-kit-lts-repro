@@ -51,3 +51,18 @@ Alternatively, try to find a version of this plugin that supports these lower
 versions of the Android SDK.
 Exception: Gradle task assembleDebug failed with exit code 1
 ```
+
+Using the `development-flutter` branch, iOS builds break too, but I assume
+that's simply due to the lack of `-lts` suffix.
+
+```
+Resolving dependencies of `Podfile`
+      CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local
+      because checking is only performed in repo update
+    [!] CocoaPods could not find compatible versions for pod
+    "ffmpeg_kit_flutter/https":
+      In Podfile:
+        ffmpeg_kit_flutter (from `.symlinks/plugins/ffmpeg_kit_flutter/ios`) was
+        resolved to 4.5.0, which depends on
+          ffmpeg_kit_flutter/https (= 4.5.0)
+```

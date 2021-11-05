@@ -60,10 +60,12 @@ packages:
   ffmpeg_kit_flutter:
     dependency: "direct main"
     description:
-      name: ffmpeg_kit_flutter
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.5.0-LTS"
+      path: "flutter/flutter"
+      ref: development-flutter
+      resolved-ref: b5c7a0c157aca0ed9af606fb82eff0b8a4cb74dc
+      url: "https://github.com/tanersener/ffmpeg-kit"
+    source: git
+    version: "4.5.0"
   ffmpeg_kit_flutter_platform_interface:
     dependency: transitive
     description:
