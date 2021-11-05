@@ -1,0 +1,32 @@
+PODS:
+  - ffmpeg-kit-ios-https (4.5.LTS)
+  - ffmpeg_kit_flutter (4.5.0):
+    - ffmpeg_kit_flutter/https-lts (= 4.5.0)
+    - Flutter
+  - ffmpeg_kit_flutter/https-lts (4.5.0):
+    - ffmpeg-kit-ios-https (= 4.5.LTS)
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter (from `.symlinks/plugins/ffmpeg_kit_flutter/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-https
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-ios-https: 420b7d6e105f4b872d048a84f4f713479bea8b2b
+  ffmpeg_kit_flutter: 4475e259bfc0e495d1db6559d0ecf0ebfa1215c7
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: 113c38e35fdeddde79ac072ac6cd95a1e1c81fe2
+
+COCOAPODS: 1.11.2
